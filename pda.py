@@ -36,7 +36,7 @@ class PDA:
             if state in self.grammar['final_states']: print('Accepted')
             else: print('Nope')
         except:
-            print("PDA failed to consume. Not a viable language.")
+            print("PDA failed to consume. Not a viable string.")
 
 
 
